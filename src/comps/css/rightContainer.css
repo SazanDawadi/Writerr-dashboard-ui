@@ -1,0 +1,94 @@
+.right-container{
+    font-family: 'Quicksand', sans-serif;
+    max-width: 32vw;
+    height: 100vh;
+    background-color: #f4f8fb;
+    border-bottom-left-radius: 8px;
+    
+    
+}
+.bell__geaer__wrapper{
+    height: 11vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-left:2rem;
+    margin-right: 2rem;
+    font-size:1.8rem;
+}
+.bell, .gear{
+    cursor: pointer;
+    transition: all 150ms ease;
+}
+
+.bell:hover,.gear:hover{
+    transform: scale(1.07)
+}
+
+.writer__info{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.writer__info h3{
+    margin-top: 2px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 1px;
+}
+.writer__info label{
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.writer__info img{
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+.followers_info{
+    height:20vh;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.followers, .articles, .following{
+    font-family: 'Quicksand', sans-serif;
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 50px;
+    font-size: 0.8rem;
+}
+.followers h3, .articles h3, .following h3{
+    margin-left: 20px;
+    font-weight: 300;
+    word-spacing: 0;
+}
+.followers-logo,.articles-logo, .following-logo{
+    font-size: 1.5rem;
+}
+.followers{
+    color:#656af0 ;
+}
+.articles{
+    color:#ff5c4a;
+    
+}
+
+
+

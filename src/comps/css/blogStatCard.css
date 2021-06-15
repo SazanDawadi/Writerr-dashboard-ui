@@ -1,0 +1,125 @@
+.blog-stat-card{
+    background-color: #f4f8fb;
+    width:86%;
+    height: 110px;
+    margin: auto;
+    border-radius: 5px;
+    border-top-left-radius:40px ;
+    margin-top: 30px;
+}
+
+.blog-stat-card img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+    border-top-left-radius: 40%;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.blog-stat-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.info h3{
+    margin-left: 30px;
+}
+.info__wrapper{
+    display:flex;
+    flex-direction: column;
+}
+
+.label_btn_warpper{
+    padding-left:80px ;
+
+}
+.date-words-cnt-wrapper{
+    margin-left: 30px;
+    margin-top: -12px;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.date-words-cnt-wrapper span{
+    color:rgb(153, 152, 152);
+}
+
+
+.popular{
+    background-color: #ffcd3f;
+    color: black;
+    border: none;
+    padding:5px 20px;
+    border:none;
+    border-radius: 5px;
+}
+.popular-blue{
+    background-color: #3ed4e1;
+    color: white;
+    border: none;
+    padding:5px 20px;
+    border:none;
+    border-radius: 5px;
+}
+.editor-choice{
+    background-color: #ff5c4a;
+    color: white;
+    border: none;
+    padding:5px 20px;
+    border:none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.top-ten-in{
+    background-color: #4d54e1;
+    color: white;
+    border: none;
+    padding:5px 20px;
+    border:none;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.most-liked{
+    background-color: #ff8e34;
+    color: white;
+    border: none;
+    padding:5px 20px;
+    border:none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+
+.blog_stats{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:-13px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.blog_stats p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.card-icons{
+    font-size: 1rem;
+    margin-right: 5px;
+}

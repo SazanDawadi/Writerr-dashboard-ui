@@ -1,0 +1,62 @@
+.writing-for-card{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.writing-for-card h2{
+    font-size: 1.2rem;
+}
+
+
+
+.card_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.company__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.card_wrapper img{
+    height: 40px;
+    width:40px;
+    object-fit: cover;
+    border-radius: 7px;
+    /* align-self: center; */
+}
+.company__info p{
+    font-weight: 500;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.company__info label{
+    margin-top: 1px;
+    font-size: 0.9rem;
+    text-align:left !important;
+    color: rgb(87, 85, 85);
+}
+
+.writing-for-card-wrapper button{
+    background-color: transparent;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size:0.85rem;
+    margin-left: 65%;
+    margin-top:0;
+    font-weight: 500;
+    color:#5358e2;
+    cursor: pointer;
+}
+.right-arrow{
+    font-size: 1.5rem;
+    align-items: center;
+}
+

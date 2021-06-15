@@ -1,0 +1,87 @@
+.left-container{
+    display: flex;
+    flex-direction:column;
+}
+
+.logo__container{
+    height:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.logo__container p{
+    color:#ff5c4a;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+}
+
+.vertical__nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: #ff5c4a;
+    border-top-right-radius:35px ;
+    border-bottom-right-radius: 8px;
+
+
+}
+
+.vertical__nav__container{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: white;
+    /* transition: color 3000ms ease-in-out; */
+    transition:all 3000ms ease-in-out;
+}
+
+.home__icon, .trending__icon, .analytics__icon, .profile__icon{
+    cursor: pointer;
+}
+
+.home__icon:hover {
+    color: black;
+    transform: scale(1.3);
+}
+.home__icon:active {
+    margin-right: -2px;
+    color: black;
+    transform: scale(1.2);
+}
+
+.analytics__icon:hover{
+    color: black;
+    transform: scale(1.2);
+}
+.analytics__icon:active {
+    margin-right: -2px;
+    color: black;
+    transform: scale(1.2);
+}
+
+.trending__icon:hover{
+    color: black;
+    transform: scale(1.2);
+}
+.trending__icon:active {
+    margin-right: -2px;
+    color: black;
+    transform: scale(1.2);
+}
+
+.profile__icon:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+.profile__icon:active {
+    margin-right: -2px;
+    color: black;
+    transform: scale(1.2);
+}

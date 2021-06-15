@@ -1,0 +1,10 @@
+.dashboard {
+    margin:0 !important;
+    width: 100vw !important;
+    height: 100vh;
+    display: grid;
+    overflow-x: hidden;
+    grid-template-columns: 0.24fr 1.8fr 0.96fr;
+}
+
+

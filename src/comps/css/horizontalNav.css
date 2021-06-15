@@ -1,0 +1,62 @@
+.horizontal_nav_wrapper{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+
+.horizontal_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.create_article_btn{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.create_article_btn{
+    background-color: #5358e2;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size:1.2rem;
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+}
+.create_article_btn:hover{
+    background-color: #656af0;
+
+}
+
+.plus_icon{
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.horizontal_nav span {
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all 100ms ease;
+    margin-right: 2rem;
+
+}
+
+.horizontal_nav span:hover{
+    padding-bottom:5px ;
+    border-bottom: 3px solid #5358e2;
+}
+.horizontal_nav span.active{
+    padding-bottom:5px ;
+    border-bottom: 3px solid #5358e2;
+}

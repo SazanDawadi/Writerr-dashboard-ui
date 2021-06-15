@@ -1,0 +1,26 @@
+.main-conatainer{
+    font-family: 'Quicksand', sans-serif;
+}
+.graph_container{
+    height: 300px;
+    margin-left: 7%;
+    margin-right: 7% !important;
+    background-color: #1c1b4b;
+    border-radius: 10px;
+    border-top-left-radius: 35px;
+}
+.graph_container h3{
+    position:fixed;
+    color:rgb(236, 232, 232) !important;
+    top:16vh;
+    left:14vw;
+    font-size: 1rem;
+    z-index: 9;
+    display: none;
+    
+}
+
+.articles_container h2{
+    margin-left:7% ;
+    font-size: 1.6rem;
+}
