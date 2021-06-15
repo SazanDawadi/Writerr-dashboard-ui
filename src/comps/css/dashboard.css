@@ -4,7 +4,7 @@
     height: 100vh;
     display: grid;
     overflow-x: hidden;
-    grid-template-columns: 0.24fr 1.8fr 0.96fr;
+    grid-template-columns: .24fr 1.96fr .80fr;
 }
 
 
